@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+    
+    <title> Sistema de Planillas - Añadir AFP/SNP</title>
+	<link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../../resources/database_t.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+    </head>
+   
+    <body>
+    <div id="container">
+		<div id="header"></div>
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="../1.-personal/InicioPersonal.html"> Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a  href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html">Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="../1.-personal/InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html">AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div class="tab_head">
+            	<h1>Consulta AFP/SNP</h1>
+            </div>
+            
+            <div class="tab_body">
+                <div id="combo_afp-snp">
+                    <p>Cambiar AFP/SNP</p>
+                    <select >
+                        <option value="prima">Prima</option>
+                        <option value="horizonte">Horizonte</option>
+                        <option value="Integra">Integra</option>
+                        <option value="snp">SNP</option>
+                    </select>
+                </div>
+                <div class="clear-after" ></div>
+                <div id="tabla_afp-snp">
+                    <table>
+                    <thead>
+                        <tr>
+                            <th >Año</th>
+                            <th >Mes</th>
+                            <th >Aporte %</th>
+                            <th >Comisión %</th>
+                            <th>Seguro %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr>
+                                <td >2010</td><td >Mayo</td><td >10</td>
+                                <td >1.95</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                                <td >2010</td><td >Junio</td><td >10</td>
+                                <td >1.95</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2010</td><td >julio</td><td >10</td>
+                            <td >1.95</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2010</td><td >Agosto</td><td >10</td>
+                            <td >1.95</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2010</td><td >Septiembre</td><td >10</td>
+                            <td >1.95</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2010</td><td >Octubre</td><td >10</td>
+                            <td >1.95</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2010</td><td >Noviembre</td><td >10</td>
+                            <td >1.96</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2010</td><td >Diciembre</td><td >10</td>
+                            <td >1.96</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2011</td><td >Enero</td><td >10</td>
+                            <td >1.96</td><td >0.9</td>
+                        </tr>
+                        <tr>
+                            <td >2011</td><td >Febrero</td><td >10</td>
+                            <td >1.96</td><td >0.9</td>
+                        </tr>
+                       	<tr>
+                            <td >2011</td><td >marzo</td><td >10</td>
+                            <td >1.96</td><td >0.9</td>
+                        </tr>
+                         <tr>
+                            <td >2011</td><td >abril</td><td >10</td>
+                            <td >1.96</td><td >0.9</td>
+                        </tr>
+                       	 
+                	</tbody>
+                </table>
+                </div>
+                    
+              <input type="button" value="añadir mes para esta AFP/SNP" onclick="window.location.href='afp-snp-add.html'"/>
+                <form id="form_afp-snp">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th >Año</th>
+                            <th >Mes</th>
+                            <th >Aporte %</th>
+                            <th >Comisión %</th>
+                            <th>Seguro %</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td >
+                                    <select>
+                                        <option value="2011">2011</option>
+                                    </select>
+                                </td>
+                                <td >
+                                    <select>
+                                        <option value="mayo">mayo</option>
+                                        <option value="junio">junio</option>
+                                        <option value="julio">julio</option>
+                                        <option value="agosto">agosto</option>
+                                        <option value="septiembre">septiembre</option>
+                                        <option value="octubre">octubre</option>
+                                        <option value="noviembre">noviembre</option>
+                                        <option value="diciembre">dicienbre</option>
+                                    </select>
+                                </td>
+                                <td >
+                                    <input type="text"  />
+                                </td>
+                                <td >
+                                    <input type="text"  />
+                                </td>
+                                <td >
+                                    <input type="text"  />
+                                </td>
+                             </tr>
+                        </tbody> 
+                	</table>
+                    <input id="gAFPSNP" type="button" value="guardar" /> 
+                </form>                 
+        	</div>
+        </div>
+        <div class="clear-after">
+        </div>
+		<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+	</div>
+    </body>
+
+</html>

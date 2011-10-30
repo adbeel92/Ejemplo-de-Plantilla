@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	 <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+		<title> Sistema de Planillas - Datos de Planilla del Trabajador</title>
+		
+		<link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="../../resources/database_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+	<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+		
+
+    </head>
+   
+    <body>
+		<div id="header">
+			
+		</div>
+		
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="InicioPersonal.html"> Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html"> Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html"> AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+		
+		
+		<div id= tabs>
+		<ul id="listaTabs" >
+				<li><a href="ModPersonal.html">Personales</a></li>
+				<li><a href="ModLaboral.html">Laborales</a></li>
+				<li><a href="ModSalarial.html">Planillas</a></li>
+				<li><a href="ModOthers.html">Otros</a></li>
+			</ul>
+		</div>
+		
+		<div id="form">
+		
+		<span id="labelFIngreso" class="componente  ">Ingreso Planilla</span>
+	
+<input id="textFIngreso" type="text" value="01/07/10" class="componente " />
+	
+<span id="labelTipoPlanilla" class="componente  ">Tipo Planilla</span>
+
+	
+<select id="comboTipoPlanilla" class="componente ">
+<option>Planillas Empleados</option>
+</select>
+	
+<span id="labelSituación" class="componente  ">Situación</span>
+	
+<select id="comboSituación" class="componente ">
+<option>Activo</option>
+</select>
+	
+<span id="labelNhijos" class="componente  ">Nro. de Hijos</span>
+	
+
+<select id="comboSitEspecial" class="componente ">
+<option>No Definidos</option>
+</select>
+	
+<span id="labelTipoContrato" class="componente  ">Tipo de Contrato</span>
+	
+<span id="labelPeriod" class="componente  ">Periodicidad</span>
+	
+<select id="comboTipoContrato" class="componente ">
+<option>Contrato</option>
+</select>
+	
+<span id="containerAcc" class="componente ">
+
+	<input id="checkAcc" type="checkbox" />
+	<label for="checkAcc"></label>
+</span>
+	
+<span id="labelVacaciones" class="componente  ">Vacaciones</span>
+	
+<span id="labelCTS" class="componente  ">CTS</span>
+	
+<select id="comboBanco" class="componente ">
+<option>BCP</option>
+</select>
+	
+
+<span id="labelSueldo" class="componente  ">Sueldo Básico</span>
+	
+<span id="labelCategoria" class="componente  ">Categoría</span>
+	
+<select id="comboCategoria" class="componente ">
+<option>Quinta Categoría</option>
+</select>
+	
+<span id="labelTurno" class="componente  ">Turno</span>
+	
+<span id="labelMotivoCese" class="componente  ">Motivo Cese</span>
+	
+
+<span id="labelFechaCese" class="componente  ">Fecha de Cese</span>
+	
+<select id="comboMotivoCese" class="componente ">
+<option>No Definido</option>
+</select>
+	
+<input id="textSueldo" type="text" value="30000" class="componente " />
+	
+<input id="textNroHijos" type="text" value="0.1" class="componente " />
+	
+<span id="labelHijosEsc" class="componente  ">Hijos Escol.	</span>
+	
+<input id="textHijosEs" type="text" value="0" class="componente " />
+	
+
+<span id="labelCargaF" class="componente  ">Carg. Familiar</span>
+	
+<input id="textCargaF" type="text" value="0" class="componente " />
+	
+<span id="labelcheckAcc" class="componente  ">Accidentes Trabajo</span>
+	
+<select id="comboPeriod" class="componente ">
+<option>Mensual</option>
+</select>
+	
+<span id="labelSitEspecial" class="componente  ">Sit. Especial</span>
+	
+<input id="textVacInicio" type="text" value="01/08/10" class="componente " />
+
+	
+<input id="textVacFin" type="text" value="01/07/10" class="componente " />
+	
+<span id="labelVacInicio" class="componente  ">Inicio</span>
+	
+<span id="labelVacFin" class="componente  ">Fin</span>
+	
+<span id="labelBanco" class="componente  ">BANCO</span>
+	
+<span id="moneda" class="componente  ">MONEDA</span>
+	
+<select id="comboMoneda" class="componente ">
+<option>DOLARES</option>
+
+</select>
+	
+<input id="textNumCuenta" type="text" value="25771271GSfHT" class="componente " />
+	
+<span id="labelNumCuenta" class="componente  ">Num. Cuenta</span>
+	
+<select id="comboTurno" class="componente ">
+<option>Mañana</option>
+</select>
+	
+<input id="textFechaCese" type="text" value="01/10/10" class="componente " />
+	
+<span id="containercheckApo" class="componente ">
+	<input id="checkApo" type="checkbox" />
+
+	<label for="checkApo"></label>
+</span>
+	
+<span id="labelApo" class="componente  ">Aportaciones</span>
+	
+<span id="labelSujetoR" class="componente  ">Sujeto a Retenciones</span>
+	
+<span id="containerSujetoR" class="componente ">
+	<input id="checkSujetoR" type="checkbox" />
+	<label for="checkSujetoR"></label>
+</span>
+
+		<button id="applyButton" type="button" class="componente" onclick="location = 'ModOthers.html'">Seguir a Otros</button>
+	                                                                                               
+		<button id="cancelButton" type="button" class="componente"  onclick="location = 'InicioPersonal.html'">Cancelar</button>
+		
+		</div>
+		</div>
+		
+		<div id="footer">
+		<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		
+		</div>
+		
+    </body>
+
+</html>

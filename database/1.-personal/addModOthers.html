@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	 <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+		<title> Sistema de Planillas - Otros Datos del Trabajador </title>
+		
+		<link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="../../resources/database_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+		
+    </style>  
+    </head>
+   
+    <body>
+		<div id="header">
+			
+		</div>
+		
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="InicioPersonal.html"> Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html"> Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html"> AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+        <div id="main">
+		
+		
+		<div id= tabs>
+		<ul id="listaTabs" >
+				<li><a href="addModPersonal.html">Personales</a></li>
+				<li><a href="addModLaboral.html">Laborales</a></li>
+				<li><a href="addModSalarial.html">Planillas</a></li>
+				<li><a href="addModOthers.html">Otros</a></li>
+			</ul>
+		</div>
+		
+		<div id="form">
+		
+			<span id="labelNacion" class="componente  ">Nacionalidad</span>
+	
+			<select id="comboNacion" class="componente ">
+			<option>Peruana</option>
+			</select>
+
+	
+			<span id="labelEmail" class="componente ">E&ndash;mail</span>
+	
+		
+		
+		<span id="labelInsM" class="componente ">Ins. Militar</span>
+		<select id="comboInsM" class="componente">
+		<option>FAP</option>
+		</select>
+	
+		<input id="textEmail" type="text" value="" class="componente " />
+	
+		<span id="labelRUC" class="componente  ">RUC</span>
+
+		<input id="textRUC" type="text" value="" class="componente " />
+	
+		<span id="labelComentarios" class="componente  ">Comentarios</span>
+	
+		<textarea id="textAreaComment" class="componente"></textarea>
+	
+		<span id="labelLibMilitar" class="componente  ">Libreta Militar</span>
+	
+		<input id="textLibMilitar" type="text" value="" class="componente " />
+	
+		<span id="labelTipoS" class="componente  ">Tipo de Sangre</span>
+	
+		<select id="comboTipoS" class="componente">
+		<option>O</option>
+		</select>
+
+		<button id="applyButtonF" type="button" class="componente" >Añadir Trabajador</button>
+	                                                                                               
+		<button id="cancelButton" type="button" class="componente"  onclick="location = 'InicioPersonal.html'">Cancelar</button>
+		
+		</div>
+
+</div>
+
+		
+		
+		<div id="footer">
+		
+		<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		
+		</div>
+		
+    </body>
+
+</html>

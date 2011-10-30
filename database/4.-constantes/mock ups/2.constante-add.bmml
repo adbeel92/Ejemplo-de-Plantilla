@@ -1,0 +1,116 @@
+<mockup version="1.0" skin="sketch" measuredW="1534" measuredH="910" mockupW="1444" mockupH="877">
+  <controls>
+    <control controlID="218" controlTypeID="com.balsamiq.mockups::ModalScreen" x="343" y="189" w="901" h="30" measuredW="320" measuredH="240" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::ButtonBar" x="673" y="189" w="562" h="30" measuredW="501" measuredH="31" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <text>home%2C%20database%2C%20process%20%2Creports%20%2Cutilities%20%2C%20end%20session</text>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::Image" x="343" y="106" w="345" h="77" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <filter>true</filter>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::HRule" x="343" y="184" w="901" h="-1" measuredW="100" measuredH="5" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="222" controlTypeID="com.balsamiq.mockups::VRule" x="340" y="103" w="-1" h="772" measuredW="5" measuredH="100" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::VRule" x="1243" y="106" w="-1" h="775" measuredW="5" measuredH="100" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::Label" x="343" y="186" w="176" h="24" measuredW="134" measuredH="29" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>16</size>
+        <text>pedro%20picapiedra</text>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::ModalScreen" x="349" y="817" w="892" h="57" measuredW="320" measuredH="240" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="228" controlTypeID="com.balsamiq.mockups::Label" x="351" y="827" w="862" h="37" measuredW="848" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>UNIVERSIDAD%20SAN%20IGNACIO%20DE%20LOYOLA%20/%20Av.%20La%20Fontana%20550%20y%20750%2C%20La%20Molina%20Lima%20-%20Per%FA%20Central%20Telef%F3nica%20%28511%29%20317%20-%201000</text>
+      </controlProperties>
+    </control>
+    <control controlID="229" controlTypeID="com.balsamiq.mockups::Accordion" x="349" y="219" w="150" h="597" measuredW="150" measuredH="293" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Personal%0AAFP/SNP%0ACargos%0AConstantes%0AConceptos</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="231" controlTypeID="com.balsamiq.mockups::Canvas" x="505" y="221" w="739" h="583" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <value>100</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="232" controlTypeID="com.balsamiq.mockups::DataGrid" x="551" y="253" w="617" h="371" measuredW="550" measuredH="358" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Idcte%2C%20Constante%2CValor%2Cunidad%2Cabreviatura%0A1%2CAFP%20%25APORTE%20COMPLEM%20TRABAJ%2C2%2CPORC%2CAFP_FCT%0A2%2CAFP%20%25APORTE%20COMPLEM%20EMPLEADOR%2C2%2CPORC%2CAFP_FCE%0A3%2CESSALUD%2C9%2CPORC%2CESSALUD%0A4%2CESSALUD%20VIDA%2C5%2CNUM%2CESSALUDVID%0A5%2CSUELDO%20MINIMO%2C550%2CNUM%2CSMINIMO%0A6%2CTOPE%20APORTE%20AFP%2C7471.56%2CNUM%2CTOPEAFP%0A7%2CUIT%2C3600%2CNUM%2CUIT%0A8%2CTIPO%20CAMBIO%2C2.799%2CNUM%2CTC%0A9%2CEPS%20ESSALUD%2C6.75%2CPORC%2CEPSESSALUD%0A10%2CEPS%20SALUD%2C2.25%2CPORC%2CEPS%0A11%2C%25%20Utilidad%2C8%2CPORC%2CPUTIl</text>
+      </controlProperties>
+    </control>
+    <control controlID="233" controlTypeID="com.balsamiq.mockups::Button" x="566" y="649" w="-1" h="-1" measuredW="179" measuredH="28" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>selected</state>
+        <text>ingresar%20nueva%20constante</text>
+      </controlProperties>
+    </control>
+    <control controlID="234" controlTypeID="com.balsamiq.mockups::Button" x="885" y="649" w="-1" h="-1" measuredW="137" measuredH="28" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>eliminar%20constante</text>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::TextInput" x="534" y="700" w="-1" h="-1" measuredW="125" measuredH="29" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>ingresar%20valores%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::DataGrid" x="534" y="738" w="617" h="64" measuredW="325" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Idcte%2C%20Constante%2CValor%2Cunidad%2Cabreviatura</text>
+      </controlProperties>
+    </control>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::TextInput" x="539" y="765" w="-1" h="-1" measuredW="79" measuredH="29" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="238" controlTypeID="com.balsamiq.mockups::TextInput" x="631" y="766" w="140" h="-1" measuredW="79" measuredH="29" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="239" controlTypeID="com.balsamiq.mockups::TextInput" x="780" y="766" w="-1" h="-1" measuredW="79" measuredH="29" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="240" controlTypeID="com.balsamiq.mockups::TextInput" x="874" y="766" w="96" h="-1" measuredW="79" measuredH="29" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="241" controlTypeID="com.balsamiq.mockups::TextInput" x="983" y="766" w="156" h="-1" measuredW="79" measuredH="29" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="242" controlTypeID="com.balsamiq.mockups::Button" x="1077" y="700" w="-1" h="-1" measuredW="76" measuredH="28" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ingresar</text>
+      </controlProperties>
+    </control>
+    <control controlID="243" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="90" y="33" w="1444" h="877" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>planillas%20usil%0Ahttp%3A//www.usil.edu.pe/sisplan/database</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

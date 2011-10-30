@@ -1,0 +1,79 @@
+<mockup version="1.0" skin="sketch" measuredW="1515" measuredH="902" mockupW="1444" mockupH="877">
+  <controls>
+    <control controlID="244" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="71" y="25" w="1444" h="877" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>planillas%20usil%0Ahttp%3A//www.usil.edu.pe/sisplan/database</text>
+      </controlProperties>
+    </control>
+    <control controlID="245" controlTypeID="com.balsamiq.mockups::ModalScreen" x="345" y="185" w="901" h="30" measuredW="320" measuredH="240" zOrder="1" locked="true" isInGroup="-1"/>
+    <control controlID="246" controlTypeID="com.balsamiq.mockups::ButtonBar" x="675" y="185" w="562" h="30" measuredW="501" measuredH="31" zOrder="2" locked="true" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <text>home%2C%20database%2C%20process%20%2Creports%20%2Cutilities%20%2C%20end%20session</text>
+      </controlProperties>
+    </control>
+    <control controlID="247" controlTypeID="com.balsamiq.mockups::Image" x="345" y="102" w="345" h="77" measuredW="77" measuredH="79" zOrder="3" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <filter>true</filter>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="248" controlTypeID="com.balsamiq.mockups::HRule" x="345" y="180" w="901" h="-1" measuredW="100" measuredH="5" zOrder="4" locked="true" isInGroup="-1"/>
+    <control controlID="249" controlTypeID="com.balsamiq.mockups::VRule" x="342" y="99" w="-1" h="772" measuredW="5" measuredH="100" zOrder="5" locked="true" isInGroup="-1"/>
+    <control controlID="250" controlTypeID="com.balsamiq.mockups::VRule" x="1245" y="102" w="-1" h="775" measuredW="5" measuredH="100" zOrder="6" locked="true" isInGroup="-1"/>
+    <control controlID="251" controlTypeID="com.balsamiq.mockups::Label" x="345" y="182" w="176" h="24" measuredW="134" measuredH="29" zOrder="7" locked="true" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>16</size>
+        <text>pedro%20picapiedra</text>
+      </controlProperties>
+    </control>
+    <control controlID="252" controlTypeID="com.balsamiq.mockups::ModalScreen" x="351" y="813" w="892" h="57" measuredW="320" measuredH="240" zOrder="8" locked="true" isInGroup="-1"/>
+    <control controlID="253" controlTypeID="com.balsamiq.mockups::Accordion" x="348" y="216" w="150" h="597" measuredW="150" measuredH="293" zOrder="9" locked="true" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Personal%0AAFP/SNP%0ACargos%0AConstantes%0AConceptos</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="254" controlTypeID="com.balsamiq.mockups::Canvas" x="498" y="215" w="739" h="583" measuredW="100" measuredH="70" zOrder="10" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="255" controlTypeID="com.balsamiq.mockups::DataGrid" x="509" y="253" w="720" h="268" measuredW="744" measuredH="268" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hLines>false</hLines>
+        <selectedIndex>-1</selectedIndex>
+        <text>Idconcpt%2CClase%2CConcepto%2CAbreviatura%2CTipo1%2CTipo2%2CFormula%0A0607%2CD%2CSNP%2CSNP%2C1%2C2%2CROUND%28wsnp*wtotganr/100.2%29%0A0608%2CD%2CAPORTE%20AFP%2CAPORTE%2C1%2C2%2CROUND%28waporteT*wtotganr/100.2%29%0A0701%2CE%2CCOMISION%20AFP%2CCOMISON%2C1%2C2%2CROUND%28wcomision*wtotganr/100.2%29%0A0611%2CE%2CESSALUD%209%25/6.75%25%2CESSALUD%2C1%2C2%2CROUND%28wessalud*wtotganr/100.2%29%0A0809%2CE%2CESSALUD%20EPS%202.25%25%2CEPSRIMAC%2C1%2C2%2CROUND%28wepssalud*wtotganr/100.2%29%0A0806%2CG%2CGRATIFICACION%2CGRATI%2C1%2C2%2C0%0A0121%2CG%2CVACACIONES%20TRUNCAS%2CVACACT%2C1%2C1%2C0%0A0705%2CG%2CDIAS%20LIBRES%20TRUNCOS%2COTRASRT%2C1%2C1%2C0</text>
+        <verticalScrollbar>true</verticalScrollbar>
+        <vLines>true</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="256" controlTypeID="com.balsamiq.mockups::Button" x="568" y="557" w="174" h="28" measuredW="174" measuredH="28" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>ingresar%20nuevo%20concepto</text>
+      </controlProperties>
+    </control>
+    <control controlID="257" controlTypeID="com.balsamiq.mockups::Button" x="887" y="557" w="132" h="28" measuredW="132" measuredH="28" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>eliminar%20concepto</text>
+      </controlProperties>
+    </control>
+    <control controlID="258" controlTypeID="com.balsamiq.mockups::Label" x="353" y="823" w="862" h="37" measuredW="848" measuredH="25" zOrder="14" locked="true" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>UNIVERSIDAD%20SAN%20IGNACIO%20DE%20LOYOLA%20/%20Av.%20La%20Fontana%20550%20y%20750%2C%20La%20Molina%20Lima%20-%20Per%FA%20Central%20Telef%F3nica%20%28511%29%20317%20-%201000</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

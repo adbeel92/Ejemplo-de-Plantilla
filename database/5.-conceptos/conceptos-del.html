@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+    <title> Sistema de Planillas - Eliminar Conceptos</title>
+     <link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../../resources/database_t.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+    </head>
+   
+    <body>
+    <div id="container">
+		<div id="header"></div>
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="../1.-personal/InicioPersonal.html">Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a  href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html">Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="../1.-personal/InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html">AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div class="tab_head">
+            	<h1>Conceptos</h1>
+            </div>
+            
+            <div class="tab_body">
+                
+               <div id="tabla_conceptos">
+                   <table>
+                        <thead>
+                            <tr>
+                                    <th>Idconcpt</th>
+                                    <th>Clase</th>
+                                    <th>Concepto</th>
+                                    <th>Abreviatura</th>
+                                    <th>Tipo1</th>
+                                    <th>Tipo2</th>
+                                    <th>Formula</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr><td >0607</td><td >D</td><td >SNP</td><td >SNP</td><td >1</td><td >2</td><td >ROUND(wsnp*wtotganr/100.2)</td></tr>
+                        <tr><td >0608</td><td >D</td><td >APORTE AFP</td><td >APORTE</td><td >1</td><td >2</td><td>ROUND(waporteT*wtotganr/100.2)</td></tr>
+                        <tr><td >0701</td><td >E</td><td >COMISION AFP</td><td >COMISON</td><td >1</td><td >2</td><td >ROUND(wcomision*wtotganr/100.2)</td></tr>
+                        <tr><td >0611</td><td >E</td><td >ESSALUD 9%/6.75%</td><td >ESSALUD</td><td >1</td><td >2</td><td>ROUND(wessalud*wtotganr/100.2)</td></tr>
+                        <tr><td >0809</td><td >E</td><td >ESSALUD EPS 2.25%</td><td >EPSRIMAC</td><td >1</td><td >2</td><td >ROUND(wepssalud*wtotganr/100.2)</td></tr>
+                        <tr><td >0806</td><td >G</td><td >GRATIFICACION</td><td >GRATI</td><td >1</td><td >2</td><td>0</td></tr>
+                        <tr><td >0121</td><td >G</td><td >VACACIONES TRUNCAS</td><td >VACACT</td><td >1</td><td >1</td><td >0</td></tr>
+                        <tr><td >0705</td><td >G</td><td >DIAS LIBRES TRUNCOS</td><td >OTRASRT</td><td >1</td><td >1</td><td>0</td></tr>
+                        </tbody>
+                        </table>
+                    </div>
+                        
+                  <input type="button" value="añadir coceptos" onclick="window.location.href='conceptos-add.html'"/>
+                  <input type="button" value="eliminar conceptos" onclick="window.location.href='conceptos-del.html'"/>
+                    <form id="form_conceptos">
+                       <table>
+                       		<thead>
+                            <tr>
+                                    <th>Idconcpt</th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                            	<tr>
+                                	<td>
+                                    <input type="text" />
+                                	</td>
+                                </tr>
+                            </tbody>
+                    	</table>
+                    <input id="eConceptos" type="button" value="eliminar"/> 
+                </form>                 
+        	</div>
+        </div>
+        <div class="clear-after">
+        </div>
+		<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+	</div>
+    </body>
+
+</html>

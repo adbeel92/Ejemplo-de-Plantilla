@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	 <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+		<title> Sistema de Planillas - Datos Personales del Trabajador</title>
+		
+		<link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="../../resources/database_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+			<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+		
+    </head>
+   
+    <body>
+		<div id="header">
+			
+		</div>
+		
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="InicioPersonal.html"> Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html"> Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+	<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html"> AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+		
+		<div id= tabs>
+		<ul id="listaTabs" >
+				<li><a href="addModPersonal.html">Personales</a></li>
+				<li><a href="addModLaboral.html">Laborales</a></li>
+				<li><a href="addModSalarial.html">Planillas</a></li>
+				<li><a href="addModOthers.html">Otros</a></li>
+			</ul>
+		</div>
+		
+		<div id="form">
+		
+		<span id="labelNc" class="componente">Nombre Completo</span>
+	
+		<input id="nombreText" type="text" value="" class="componente" />
+	
+		<span id="labelDoc" class="componente">Tipo Doc.</span>
+	
+		<select id="comboDoc" class="componente">
+		<option>DNI</option>
+		</select>
+	
+		<span id="labelNdoc" class="componente">Numero Doc.</span>
+	
+		<input id="textNdoc" type="text" value="" class="componente " />
+	
+		<span id="labelLNac" class="componente">Lugar de Nacimiento</span>
+	
+		<select id="comboLNac" class="componente">
+		<option>Lince&ndash;Lima</option>
+		</select>
+	
+		<span id="labelFNac" class="componente ">Fecha de Nacimiento</span>
+
+	
+		<input id="textFNac" type="text" value="" class="componente " />
+	
+		<span id="labelPais" class="componente  ">País</span>
+		
+		<select id="comboPais" class="componente  ">
+		<option>Perú</option>
+		</select>
+
+		 
+		<span id="labelSex" class="componente  ">Sexo</span>
+	
+		<select id="comboBox" class="componente  ">
+		<option>Masculino</option>
+		</select>
+	
+		<span id="labelEc" class="componente  ">Estado Civil</span>
+	
+		<select id="comboEc" class="componente  ">
+		<option>Casado</option>
+		</select>
+	
+		<span id="labelNeduc" class="componente  ">Nivel de Educación</span>
+	
+		<select id="comboNeduc" class="componente  ">
+		<option>Bachiller</option>
+		</select>
+
+	
+		<span id="labelTel" class="componente ">Teléfono</span>
+	
+		<input id="textTel" type="text" value="" class="componente  " />
+	
+		<span id="labelDir" class="componente  ">Dirección</span>
+	
+		<input id="textDir" type="text" value="" class="componente  " />
+	
+		<span id="labelImg" class="componente">Imagen		</span><img id="img" src="image.jpg" class="componente" />
+		<button id="applyButton" type="button" class="componente" onclick="location = 'addModLaboral.html'">Seguir a Laborales</button>
+	
+		<button id="cancelButton" type="button" class="componente"  onclick="location = 'InicioPersonal.html'">Cancelar</button>
+		
+		<span id= "files" class="componente">
+		<input id="file" type="file"/>
+		</span></div>
+		</div>
+		
+		<div id="footer">
+		<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		
+		</div>
+		
+    </body>
+
+</html>

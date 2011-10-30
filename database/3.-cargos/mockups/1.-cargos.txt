@@ -1,0 +1,82 @@
+<mockup version="1.0" skin="sketch" measuredW="1515" measuredH="902" mockupW="1444" mockupH="877">
+  <controls>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="71" y="25" w="1444" h="877" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>planillas%20usil%0Ahttp%3A//www.usil.edu.pe/sisplan/database/cargos</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::ModalScreen" x="345" y="185" w="901" h="30" measuredW="320" measuredH="240" zOrder="1" locked="true" isInGroup="-1"/>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::ButtonBar" x="675" y="185" w="562" h="30" measuredW="501" measuredH="31" zOrder="2" locked="true" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <text>home%2C%20database%2C%20process%20%2Creports%20%2Cutilities%20%2C%20end%20session</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::Image" x="345" y="102" w="345" h="77" measuredW="77" measuredH="79" zOrder="3" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <filter>true</filter>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::VRule" x="342" y="99" w="-1" h="772" measuredW="5" measuredH="100" zOrder="4" locked="true" isInGroup="-1"/>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::VRule" x="1245" y="102" w="-1" h="775" measuredW="5" measuredH="100" zOrder="5" locked="true" isInGroup="-1"/>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="345" y="182" w="176" h="24" measuredW="134" measuredH="29" zOrder="6" locked="true" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>16</size>
+        <text>pedro%20picapiedra</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::ModalScreen" x="351" y="813" w="892" h="57" measuredW="320" measuredH="240" zOrder="7" locked="true" isInGroup="-1"/>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Label" x="353" y="823" w="862" h="37" measuredW="848" measuredH="25" zOrder="8" locked="true" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>UNIVERSIDAD%20SAN%20IGNACIO%20DE%20LOYOLA%20/%20Av.%20La%20Fontana%20550%20y%20750%2C%20La%20Molina%20Lima%20-%20Per%FA%20Central%20Telef%F3nica%20%28511%29%20317%20-%201000</text>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Accordion" x="348" y="216" w="150" h="597" measuredW="150" measuredH="293" zOrder="9" locked="true" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Personal%0AAFP/SNP%0ACargos%0AConstantes%0AConceptos</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::Canvas" x="498" y="222" w="739" h="583" measuredW="100" measuredH="70" zOrder="10" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <value>100</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::DataGrid" x="568" y="245" w="341" h="302" measuredW="258" measuredH="298" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Id%2C%20Cargo%0A1%2Crector%0A2%2Cvice-rector%0A3%2Cdecano%20de%20facultad%0A4%2Ccordinador%20de%20carrera%0A5%2Cprofesor%0A6%2Cgerente%20de%20area%20administrativa%0A7%2Cgerente%20de%20area%20academica%0A8%2Cgerente%20de%20seguridad%20%0A9%2Cgerente%20de%20soporte%20tecnico</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Button" x="568" y="562" w="-1" h="-1" measuredW="153" measuredH="28" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>ingresar%20nuevo%20cargo</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Button" x="753" y="562" w="-1" h="-1" measuredW="111" measuredH="28" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>eliminar%20cargo</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Canvas" x="353" y="277" w="141" h="26" measuredW="100" measuredH="70" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+    <title> Sistema de Planillas - Eliminar Constantes</title>
+     <link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="../../resources/database_t.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+    </head>
+   
+    <body>
+    <div id="container">
+		<div id="header"></div>
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="../1.-personal/InicioPersonal.html">Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a  href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html">Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="../1.-personal/InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html">AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div class="tab_head">
+            	<h1>Constantes</h1>
+            </div>
+            
+            <div class="tab_body">
+                
+               <div id="tabla_constantes">
+                   <table>
+                        <thead>
+                            <tr>
+                                <th>Idcte</th>
+                                <th>Constante</th>
+                                <th>Valor</th>
+                                <th>unidad</th>
+                                <th>abreviatura</th>
+                        	</tr>
+                       	</thead>
+                        <tbody>
+                            <tr><td >1</td><td >AFP %APORTE COMPLEM TRABAJ</td><td >2</td><td >PORC</td><td >AFP_FCT</td></tr>
+                    <tr><td >2</td><td >AFP %APORTE COMPLEM EMPLEADOR</td><td >2</td><td >PORC</td><td>AFP_FCE</td></tr>
+                    <tr><td >3</td><td >ESSALUD</td><td >9</td><td >PORC</td><td >ESSALUD</td></tr>
+                    <tr><td >4</td><td >ESSALUD VIDA</td><td >5</td><td >NUM</td><td>ESSALUDVID</td></tr>
+                    <tr><td >5</td><td >SUELDO MINIMO</td><td >550</td><td >NUM</td><td >SMINIMO</td></tr>
+                    <tr><td >6</td><td >TOPE APORTE AFP</td><td >7471.56</td><td >NUM</td><td>TOPEAFP</td></tr>
+                    <tr><td >7</td><td >UIT</td><td >3600</td><td >NUM</td><td >UIT</td></tr>
+                    <tr><td >8</td><td >TIPO CAMBIO</td><td >2.799</td><td >NUM</td><td>TC</td></tr>
+                    <tr><td >9</td><td >EPS ESSALUD</td><td >6.75</td><td >PORC</td><td >EPSESSALUD</td></tr>
+                    <tr><td >10</td><td >EPS SALUD</td><td >2.25</td><td >PORC</td><td>EPS</td></tr>
+                    <tr><td >11</td><td >% Utilidad</td><td >8</td><td >PORC</td><td >PUTIl</td></tr>
+                    </tbody>
+                        </table>
+                    </div>
+                        
+                  <input type="button" value="añadir constante" onclick="window.location.href='constantes-add.html'"/>
+                  <input type="button" value="eliminar constante" onclick="window.location.href='constantes-del.html'"/>
+                    <form id="form_constantes">
+                       <table>
+                       		<thead>
+                           		<tr>
+                                    <th>Idcte</th>
+                                    
+                            	</tr>
+                            </thead>
+                            <tbody>
+                            	<tr>
+                                	<td>
+                                    	<input type="text"  />
+                                    </td>
+                                </tr>
+                            </tbody>
+                    	</table>
+                    <input id="gConstantes" type="button" value="guardar" /> 
+                </form>                 
+        	</div>
+        </div>
+        <div class="clear-after">
+        </div>
+		<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+	</div>
+    </body>
+
+</html>

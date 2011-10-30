@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	 <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+		<title> Sistema de Planillas - Datos Laborales del Trabajador</title>
+		
+		<link href="../../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="../../resources/database_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		
+		<script src="../../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../../resources/principal.js" type="text/javascript" ></script>
+
+    </head>
+   
+    <body>
+		<div id="header">
+			
+		</div>
+		
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../../principal/principal.html"> Home</a></li>
+					<li><a href="InicioPersonal.html"> Database</a></li>
+					<li><a href="../../procesos/periodos.html"> Procesos</a></li>
+					<li><a href="../../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../../index.html"> Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="InicioPersonal.html"> Personal</a></li>
+					<li><a href="../2.-afp-snp/afp-snp-list.html"> AFP/SNP</a></li>
+					<li><a href="../3.-cargos/cargos.html"> Cargos</a></li>
+					<li><a href="../4.-constantes/constantes.html">Constantes</a></li>
+                    <li><a href="../5.-conceptos/conceptos.html">Conceptos</a></li>
+					
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+		
+		<div id= tabs>
+		<ul id="listaTabs" >
+				<li><a href="addModPersonal.html">Personales</a></li>
+				<li><a href="addModLaboral.html">Laborales</a></li>
+				<li><a href="addModSalarial.html">Planillas</a></li>
+				<li><a href="addModOthers.html">Otros</a></li>
+			</ul>
+		</div>
+		
+		<div id="form">
+		
+		<span id="labelFIng" class="componente  ">Fecha de Ingreso</span>
+	
+<input id="textFIng" type="text" value="" class="componente " />
+	
+
+<span id="labelTtrabj" class="componente  ">Tipo Trabajador.</span>
+	
+<select id="comboTtrabj" class="componente ">
+<option>Empleado</option>
+</select>
+	
+<span id="labelArea" class="componente  ">Área</span>
+	
+<select id="comboArea" class="componente ">
+<option>Administración</option>
+</select>
+	
+<span id="labelCargo" class="componente  ">Cargo</span>
+
+	
+<select id="comboCargo" class="componente ">
+<option>Operador</option>
+</select>
+	
+<span id="labelAFP" class="componente  ">AFP</span>
+	
+<span id="labelCodAFP" class="componente  ">Código AFP</span>
+	
+<select id="comboAFP" class="componente ">
+<option>UNION VIDA</option>
+</select>
+	
+
+<input id="textCodAFP" type="text" value="" class="componente " />
+	
+<span id="labelEssalud" class="componente  ">Essalud</span>
+	
+<span id="containerCheckEssalud" class="componente">
+	<input id="checkEss" type="checkbox" />
+	<label for="checkEss"></label>
+</span>
+	
+<span id="labelLTrab" class="componente  ">Lugar de Trabajo</span>
+	
+<select id="comboLTrab" class="componente ">
+<option>Campus III &ndash; Huachipa</option>
+
+</select>
+	
+<span id="labelCCost" class="componente  ">Centro de Costos</span>
+	
+<select id="comboCCost" class="componente ">
+<option>Administración</option>
+</select>
+	
+<span id="labelFp" class="componente  ">Forma de pago</span>
+	
+<select id="comboFp" class="componente ">
+<option>Efectivo</option>
+</select>
+
+	
+<span id="labelBancoL" class="componente  ">Banco</span>
+	
+<select id="comboBancoL" class="componente ">
+<option>No Definido</option>
+</select>
+	
+<span id="labelNcuenta" class="componente  ">Nro. Cuenta</span>
+	
+<input id="textNcuenta" type="text" value="" class="componente " />
+	
+<span id="labelUren" class="componente  ">Ultima Renovación</span>
+	
+
+<input id="textUren" type="text" value="" class="componente " />
+	
+<span id="labelMotivoCesel" class="componente  ">Motivo Cese</span>
+	
+<span id="labelFechaCesel" class="componente  ">Fecha de Cese</span>
+	
+<select id="comboMotivoCesel" class="componente ">
+<option>No Definido</option>
+</select>
+	
+<input id="textFechaCesel" type="text" value="" class="componente " />
+	
+
+
+		<button id="applyButton" type="button" class="componente" onclick="location = 'addModSalarial.html'">Seguir a Planillas</button>
+	                                                                                               
+		<button id="cancelButton" type="button" class="componente"  onclick="location = 'InicioPersonal.html'">Cancelar</button>
+		
+		</div>
+		</div>
+		
+		<div id="footer">
+		<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		
+		</div>
+		
+    </body>
+
+</html>
