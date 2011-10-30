@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	  <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+		<title> Sistema de Planillas :: Procesos - Asistencia </title>
+		
+		<link  href="../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link  href="../resources/procesos.css" rel="stylesheet" type="text/css" media="screen"/>
+			<script src="../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../resources/principal.js" type="text/javascript" ></script>
+
+    </head>
+    	
+	<body>
+		
+		<div id="header">
+			
+		</div>
+		
+			<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a  href="../principal/principal.html"> Home</a></li>
+					<li><a href="../database/1.-personal/InicioPersonal.html">Database</a></li>
+					<li><a href="periodos.html"> Procesos</a></li>
+					<li><a href="../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../index.html">Cerrar Sesión</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="periodos.html"> Periodos</a></li>
+					<li><a href="adelantos.html"> Adelantos</a></li>
+					<li><a href="asistencia.html"> Asistencia</a></li>
+					<li><a href="valores.html"> Valores Puntuales</a></li>
+					<li><a href="calculo.html"> Calculo Planilla</a></li>
+					<li><a href="cierre.html"> Cierre Periodo</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div  id="procesoForm">
+				<table id="formTabla">
+					<tr>
+					<td colspan="2"><h1>Hoja de Asistencia</h1></td>
+					</tr>
+					<tr>
+
+					<td class="campo">Área: </td>
+					<td colspan="2">
+						<div id="areas" align="left">
+							<select name="area">
+								<option value="ar0" onclick="location='asistencia.html'">-- Seleccione un Área --</option>
+								<option value="ar1" onclick="location='asistencia-ver-acad.html'">Académica</option>
+								<option selected="selected" value="ar2" onclick="location='asistencia-ver-adm.html'">Administrativa</option>
+
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="campo">Departamento: </td>
+					<td colspan="2">
+						<div id="departamentos" align="left">
+							<select name="dep" id="deps">
+								<option selected="selected" value="d0">-- Seleccione un Departamento --</option>
+								<option value="d1">Gerencia</option>
+								<option value="d2">Contraloría </option>
+								<option value="d3">Jefatura </option>
+								<option value="d4">Admisión </option>
+								<option value="d5">Relaciones Educativas </option>
+								<option value="d6">Consejo de Vida Integral </option>
+								<option value="d7">Coordinación de Costos y Presupuestos</option>
+								<option value="d8">Coordinación de Créditos y Cobranzas</option>
+								<option value="d9">Abogados</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="campo">Trabajador: </td>
+					<td colspan="2">
+						<div id="trabajadores" align="left">
+							<select name="trab">
+								<option selected="selected" value="t0">-- Seleccion el Trabajador --</option>
+								<option value="d1"> </option>
+							</select>
+						</div>
+						<div id="trabajadores2" align="left">
+							<select name="trab2">
+								<option selected="selected" value="t0">--  Seleccione un Trabajador  --</option>
+								<option value="t1">Lazo Mero, Henry</option>
+								<option value="t2">Arenas Pinedo, Edward</option>
+								<option value="t3">Lucano Villalobos, Tomas</option>
+								<option value="t4">Espejo Kolm, Luisa</option>
+								<option value="t5">Köhher Mamani, Martin</option>
+								<option value="t6">Quispe Diez Canseco, Duex</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input name="Enviar"  type="button" value="Consultar" onclick="location='asistencia-consultar.html'"/></td>
+				</tr>
+			</table>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+		
+    </body>
+ 
+</html>

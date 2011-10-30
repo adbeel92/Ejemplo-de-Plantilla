@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		    <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+
+		<title> Sistema de Planillas :: Reportes - Boletas </title>
+		
+		<link  href="../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link  href="../resources/reportes.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../resources/principal.js" type="text/javascript" ></script>
+
+    </head>
+
+    <body>
+		
+		<div id="header">
+		</div>
+		
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../principal/principal.html"> Home</a></li>
+					<li><a href="../database/1.-personal/InicioPersonal.html">Database</a></li>
+					<li><a href="../procesos/periodos.html"> Procesos</a></li>
+					<li><a href="boletas.html"> Reportes</a></li>
+					<li><a href="../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../index.html"> Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="boletas.html"> Boletas</a></li>
+					<li><a href="planillas.html"> Planillas</a></li>
+					<li><a href="afpnet.html"> AFPNET</a></li>
+					<li><a href="cts.html"> CTS</a></li>
+					<li><a href="varios.html"> Varios</a></li>
+					<li><a href="dias.html"> Días Libres / Vacaciones</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div  id="reportesForm">
+			<table id="formTabla">
+				<tr>
+					<td colspan="6"><h1>Boletas </h1></td>
+				</tr>
+				<tr>
+					<td class="campo">Área: </td>
+					<td colspan="2">
+						<div id="areas" align="left">
+							<select name="area">
+								<option selected="selected" value="ar0" onclick="location='boletas.html'">-- Seleccione un Área --</option>
+								<option value="ar1" onclick="location='boletas-ver-acad.html'">Académica</option>
+								<option value="ar2" onclick="location='boletas-ver-adm.html'">Administrativa</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="campo">Departamento: </td>
+					<td colspan="2">
+						<div id="departamentos" align="left">
+							<select name="dep">
+								<option selected="selected" value="d0">-- Seleccione el Departamento --</option>
+								<option value="d1"> </option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="campo">Trabajador: </td>
+					<td colspan="2">
+						<div id="trabajadores" align="left">
+							<select name="trab">
+								<option selected="selected" value="t0">-- Seleccion el Trabajador --</option>
+								<option value="d1"> </option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Seleccione Fecha: </td>
+					<td >
+						<div id="meses" align="left">
+							<select name="mes">
+								<option selected="selected" value="0">-- Mes --</option>
+								<option value="m1"> Enero </option>
+								<option value="m2"> Febrero </option>
+								<option value="m3"> Marzo </option>
+								<option value="m4"> Abril </option>
+								<option value="m5"> Mayo </option>
+								<option value="m6"> Junio </option>
+								<option value="m7"> Julio </option>
+								<option value="m8"> Agosto </option>
+								<option value="m9"> Septiembre </option>
+								<option value="m10"> Octubre </option>
+								<option value="m11"> Noviembre </option>
+								<option value="m12"> Diciembre </option>
+							</select>
+						</div>
+					</td>
+					<td>
+						<div id="años" align="left">
+							<select name="año">
+								<option selected="selected" value="0">-- Año --</option>
+								<option value="a1"> 2011 </option>
+								<option value="a2"> 2010 </option>
+								<option value="a3"> 2009 </option>
+								<option value="a4"> 2008 </option>
+								<option value="a5"> 2007 </option>
+								<option value="a6"> 2006 </option>
+								<option value="a7"> 2005 </option>
+								<option value="a8"> 2004 </option>
+								<option value="a9"> 2003 </option>
+								<option value="a10"> 2002 </option>
+								<option value="a11"> 2001 </option>
+								<option value="a12"> 2000 </option>
+								<option value="a10"> 1999 </option>
+								<option value="a11"> 1998 </option>
+								<option value="a12"> 1997 </option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left"><input type="button" value="Ver Boleta" onclick="location='boletas-falta.html'"></td>
+				</tr>
+			</table>
+			</div>
+		</div>
+		
+	<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+		
+    </body>
+
+</html>

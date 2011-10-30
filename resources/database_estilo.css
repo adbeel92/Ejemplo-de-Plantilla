@@ -1,0 +1,2006 @@
+.componente{
+		position:absolute;
+		font-size:18px;
+		font-family: calibri;
+		white-space: nowrap;
+}
+
+.componenteHidden{
+		position:absolute;
+		font-size:18px;
+		font-family: calibri;
+		white-space: nowrap;
+		visibility: hidden;
+}
+
+#tabs{
+border: 0px;
+}
+
+#modButton{
+	left:290px;
+	top:350px;
+	width:280px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#addButton{
+	left:50px;
+	top:350px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#delButton{
+	left:600px;
+	top:350px;
+	width:280px;	
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#tLabel{
+	left:170px;
+	top:222px;
+	width:80px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#tComboBox{
+	left:290px;
+	top:220px;
+	width:300px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#h1p{
+left: 20px;
+}
+
+#formulario{	
+	border: 0px;
+	}
+
+#form{
+background-color: white;
+width:720px;
+}
+
+#listaTabs{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+#listaTabs li{
+	margin: 3px;
+	padding: 2px;
+	float: left;
+}
+
+#listaTabs li a{
+	display: block;
+	width:100px;
+	padding: 4px 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	color: #FFFFFF;
+	background:  #244683;
+	border: 1px solid white;
+	
+}
+
+#listaTabs li a:hover{
+color: #FFFFFF;
+	background:  #7094B7;
+}
+
+#main_form{
+height: 420px;
+}
+
+#form{
+border: 2px solid white;
+height: 370px;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+
+
+#applyButton{
+	left:120px;
+	top:420px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+	
+#applyButtonF{
+	left:120px;
+	top:420px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#cancelButton{
+	left:500px;
+	top:420px;
+	width:77px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+
+#labelFIng{
+	left:46px;
+	top:60px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textFIng{
+	left:200px;
+	top:60px;
+	width:150px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelTtrabj{
+	left:46px;
+	top:140px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboTtrabj{
+	left:200px;
+	top:140px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelArea{
+	left:46px;
+	top:185px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboArea{
+	left:200px;
+	top:185px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelCargo{
+	left:46px;
+	top:225px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboCargo{
+	left:200px;
+	top:225px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelAFP{
+	left:46px;
+	top:270px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelCodAFP{
+	left:46px;
+	top:310px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboAFP{
+	left:200px;
+	top:270px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textCodAFP{
+	left:200px;
+	top:310px;
+	width:150px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelEssalud{
+	left:46px;
+	top:345px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#containerCheckEssalud{
+	left:200px;
+	top:345px;
+	width:25px;
+	height:22px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelLTrab{
+	left:384px;
+	top:60px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboLTrab{
+	left:524px;
+	top:60px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelCCost{
+	left:386px;
+	top:110px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboCCost{
+	left:526px;
+	top:110px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelFp{
+	left:386px;
+	top:150px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboFp{
+	left:524px;
+	top:150px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelBancoL{
+	left:386px;
+	top:190px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboBancoL{
+	left:524px;
+	top:190px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelNcuenta{
+	left:386px;
+	top:240px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textNcuenta{
+	left:524px;
+	top:240px;
+	width:195px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelUren{
+	left:46px;
+	top:100px;
+	width:126.50000000000001px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textUren{
+	left:200px;
+	top: 100px;
+	width:150px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelMotivoCesel{
+	left:386px;
+	top:280px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelFechaCesel{
+	left:387px;
+	top:320px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboMotivoCesel{
+	left:526px;
+	top:280px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textFechaCesel{
+	left:524px;
+	top:320px;
+	width:200px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+
+#labelNacion{
+	left:50px;
+	top:60px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboNacion{
+	left:180px;
+	top:55px;
+	width:157px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelEmail{
+	left:50px;
+	top:110px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+
+#comboInsM{
+	left:520px;
+	top:50px;
+	width:174px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#labelInsM{
+	left:400px;
+	top:55px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textEmail{
+	left:180px;
+	top:105px;
+	width:157px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelRUC{
+	left:50px;
+	top:160px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textRUC{
+	left:180px;
+	top:155px;
+	width:157px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelComentarios{
+	left:77px;
+	top:191px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+	
+#labelLibMilitar{
+	left:400px;
+	top:105px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textLibMilitar{
+	left:520px;
+	top:100px;
+	width:172px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+	
+#textAreaComment{
+	left:100px;
+	top:210px;
+	width:600px;
+	height:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:none;
+	color:#000000;
+	rows: 10;
+	cols: 2000;
+}
+	
+#labelTipoS{
+	left:400px;
+	top:155px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboTipoS{
+	left:520px;
+	top:150px;
+	width:174px;
+	z-index:95;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	
+}
+
+#labelFIng{
+	left:46px;
+	top:60px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textFIng{
+	left:200px;
+	top:60px;
+	width:150px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelTtrabj{
+	left:46px;
+	top:140px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboTtrabj{
+	left:200px;
+	top:140px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelArea{
+	left:46px;
+	top:185px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboArea{
+	left:200px;
+	top:185px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelCargo{
+	left:46px;
+	top:225px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboCargo{
+	left:200px;
+	top:225px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelAFP{
+	left:46px;
+	top:270px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelCodAFP{
+	left:46px;
+	top:310px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboAFP{
+	left:200px;
+	top:270px;
+	width:155px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textCodAFP{
+	left:200px;
+	top:310px;
+	width:150px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelEssalud{
+	left:46px;
+	top:345px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#containerCheckEssalud{
+	left:200px;
+	top:345px;
+	width:25px;
+	height:22px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelLTrab{
+	left:384px;
+	top:60px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboLTrab{
+	left:524px;
+	top:60px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelCCost{
+	left:386px;
+	top:110px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboCCost{
+	left:526px;
+	top:110px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelFp{
+	left:386px;
+	top:150px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboFp{
+	left:524px;
+	top:150px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelBanco{
+	left:386px;
+	top:190px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboBanco{
+	left:524px;
+	top:190px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelNcuenta{
+	left:386px;
+	top:240px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textNcuenta{
+	left:524px;
+	top:240px;
+	width:195px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelUren{
+	left:46px;
+	top:100px;
+	width:126.50000000000001px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textUren{
+	left:200px;
+	top: 100px;
+	width:150px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelMotivoCese{
+	left:386px;
+	top:280px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelFechaCese{
+	left:387px;
+	top:320px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboMotivoCese{
+	left:526px;
+	top:280px;
+	width:200px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textFechaCese{
+	left:524px;
+	top:320px;
+	width:200px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+
+#labelNc{
+	left:51px;
+	top:58px;
+	width:140px;
+	height:24px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#nombreText{
+	left:203px;
+	top:55px;
+	width:118px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelDoc{
+	left:54px;
+	top:95px;
+	width:68.2px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#comboDoc{
+	left:203px;
+	top:95px;
+	width:125px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelNdoc{
+	left:51px;
+	top:133px;
+	width:91.30000000000001px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#textNdoc{
+	left:203px;
+	top:133px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelLNac{
+	left:51px;
+	top:208px;
+	width:145.20000000000002px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboLNac{
+	left:203px;
+	top:208px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelFNac{
+	left:51px;
+	top:247px;
+	width:155px;
+	height:26px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textFNac{
+	left:203px;
+	top:247px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelPais{
+	left:51px;
+	top:173px;
+	width:160px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;	
+}
+	
+#comboPais{
+	left:203px;
+	top:173px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelSex{
+	left:364px;
+	top:132px;
+	width:155.10000000000002px;
+	height:26px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#comboBox{
+	left:510px;
+	top:132px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelEc{
+	left:364px;
+	top:172px;
+	width:155.10000000000002px;
+	height:26px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboEc{
+	left:510px;
+	top:172px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelNeduc{
+	left:364px;
+	top:208px;
+	width:155.10000000000002px;
+	height:26px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboNeduc{
+	left:510px;
+	top:208px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelTel{
+	left:364px;
+	top:58px;
+	width:133.10000000000002px;
+	height:24px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textTel{
+	left:510px;
+	top:58px;
+	width:120px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelDir{
+	left:364px;
+	top:95px;
+	width:78.10000000000001px;
+	height:24px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textDir{
+	left:510px;
+	top:95px;
+	width:222px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelImg{
+	left:364px;
+	top:235px;
+	width:155.10000000000002px;
+	height:26px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#img{
+	left:510px;
+	top:247px;
+	width:100px;
+	height:150px;
+	border:1px solid;
+}
+
+#files{
+	left: 635px;	
+	top: 367px;
+
+}
+
+#labelFIngreso{
+	left:32px;
+	top:46px;
+	width:108.9px;
+	height:25px;
+	z-index:81;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textFIngreso{
+	left:165px;
+	top:43px;
+	width:171px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelTipoPlanilla{
+	left:32px;
+	top:75px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboTipoPlanilla{
+	left:165px;
+	top:74px;
+	width:175px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelSituación{
+	left:35px;
+	top:103px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboSituación{
+	left:165px;
+	top:102px;
+	width:175px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelNhijos{
+	left:32px;
+	top:148px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboSitEspecial{
+	left:165px;
+	top:329px;
+	width:122px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelTipoContrato{
+	left:32px;
+	top:280px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelPeriod{
+	left:32px;
+	top:307px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboTipoContrato{
+	left:165px;
+	top:279px;
+	width:122px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#containerAcc{
+	left:220px;
+	top:243px;
+	width:25px;
+	height:22px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelVacaciones{
+	left:366px;
+	top:46px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelCTS{
+	left:366px;
+	top:74px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboBanco{
+	left:496px;
+	top:95px;
+	width:175px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelSueldo{
+	left:366px;
+	top:204px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelCategoria{
+	left:366px;
+	top:235px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboCategoria{
+	left:496px;
+	top:232px;
+	width:178px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelTurno{
+	left:366px;
+	top:265px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelMotivoCese{
+	left:366px;
+	top:310px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelFechaCese{
+	left:366px;
+	top:337px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboMotivoCese{
+	left:496px;
+	top:304px;
+	width:124px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textSueldo{
+	left:496px;
+	top:201px;
+	width:170px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#textNroHijos{
+	left:165px;
+	top:145px;
+	width:82px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelHijosEsc{
+	left:32px;
+	top:179px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textHijosEs{
+	left:165px;
+	top:177px;
+	width:82px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelCargaF{
+	left:32px;
+	top:205px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textCargaF{
+	left:165px;
+	top:208px;
+	width:82px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelcheckAcc{
+	left:85px;
+	top:242px;
+	width:143px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboPeriod{
+	left:165px;
+	top:304px;
+	width:122px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelSitEspecial{
+	left:32px;
+	top:335px;
+	width:125.4px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#textVacInicio{
+	left:480px;
+	top:40px;
+	width:82px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#textVacFin{
+	left:583px;
+	top:40px;
+	width:82px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelVacInicio{
+	left:504px;
+	top:20px;
+	width:42.900000000000006px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelVacFin{
+	left:604px;
+	top:20px;
+	width:25.3px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelBanco{
+	left:382px;
+	top:100px;
+	width:57.2px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#moneda{
+	left:382px;
+	top:160px;
+	width:71.5px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboMoneda{
+	left:496px;
+	top:155px;
+	width:176px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textNumCuenta{
+	left:496px;
+	top:125px;
+	width:174px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;	
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#labelNumCuenta{
+	left:382px;
+	top:130px;
+	width:95.7px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#comboTurno{
+	left:496px;
+	top:260px;
+	width:178px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#textFechaCese{
+	left:496px;
+	top:335px;
+	width:123px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#containercheckApo{
+	left:236px;
+	top:362px;
+	width:25px;
+	height:22px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#labelApo{
+	left:85px;
+	top:361px;
+	width:143px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#labelSujetoR{
+	left:88px;
+	top:381px;
+	width:154px;
+	height:25px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+	color:#000000;
+}
+	
+#containerSujetoR{
+	left:236px;
+	top:384px;
+	width:25px;
+	height:22px;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#messageBox{
+	left:210px;
+	top:20px;
+	width:550px;
+	height:200px;
+	background-color:#244683;
+}
+#messageTable{
+	border-color: #CCC;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+}
+
+#messageTable td {
+    border-color: #CCC;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+}
+
+#messageTable th{
+    border-color: #CCC;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+	padding-left:5px;
+}
+#messagetableHeader {
+	height:24px;
+	text-align:left;
+	color:white;
+}
+
+	
+#message{
+	left:28px;
+	top:57px;
+	width:380px;
+	background-color:##244683;
+	color:white 	;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+}
+	
+#buttonDesincorporar{
+	left:72px;
+	top:80px;
+	width:130px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+	
+#buttonCancelarMsj{
+	left:239px;
+	top:80px;
+	width:120px;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size: 18px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#confMessage{
+top:240px;
+left: 50px;
+}
+
+#AreaLabel{
+top: 82px;
+left: 170px;
+}
+
+#AreaComboBox{
+top: 82px;
+left: 290px;
+}
+
+#DepLabel{
+top: 152px;
+left: 170px;
+}
+
+#DepComboBox{
+top: 152px;
+left: 290px;
+width: 210px;
+}
+
+
+p{
+		margin:0;
+		padding:0;
+	}

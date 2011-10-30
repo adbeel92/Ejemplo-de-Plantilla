@@ -1,0 +1,105 @@
+
+/* estilo para la cabecera del div de contenido*/
+
+.tab_head{
+	margin-left:20px;
+	width:300px;
+	height:50px;
+}
+
+/* estilo para el cuerpo del div de contenido*/
+.tab_body{
+	padding: 10px;
+	margin-left:40px;
+	width:700px;
+}
+
+/* estilo para los comboboxes*/
+#combo_afp-snp{
+	margin-bottom:10px;
+	height:25px;
+	width:700px;
+}
+#combo_afp-snp p{
+	float:left;
+	width:150px;
+	
+}
+
+#combo_afp-snp select{
+	float:left;	
+}
+
+/*estilo para las tablas en si a mostrar*/
+table{
+	border:2px solid gray;
+	font-size:12px;
+	color:black;
+	background-color:#E0FFFF;	
+}
+thead{
+	border:0px solid;
+	color:white;
+	background-color:#244683;
+}
+
+tbody td{
+	border: navy solid thin;
+}
+
+
+/*estilo para el div de las tablas a mostrar*/
+
+#tabla_afp-snp{
+	width:450px;
+	height:235px;
+	overflow:auto;
+	margin:10px 80px 20px 80px;
+}
+
+#tabla_cargos{
+	width:280px;
+	height:200px;
+	overflow:auto;
+	margin:30px 80px 20px 80px;
+}
+
+#tabla_constantes{
+	width:600px;
+	height:230px;
+	overflow:auto;
+	margin:30px 40px 20px 40px;
+	}
+
+#tabla_conceptos{
+	width:600px;
+	height:230px;
+	overflow:auto;
+	margin:30px 40px 20px 40px;
+	}
+
+/* estilo para los formularios de adicion*/
+
+#form_afp-snp{
+	margin:20px 20px 30px 20px;
+}
+
+#form_cargos{
+	margin:20px 20px 30px 20px;
+}
+	
+#form_constantes{
+	margin:20px 20px 30px 20px;
+}
+
+#form_constantes table td input {
+	width:100px;
+}
+
+#form_conceptos{
+		margin:10px 20px 30px 0px;
+	}
+
+#form_conceptos table td input {
+	width:75px;
+}

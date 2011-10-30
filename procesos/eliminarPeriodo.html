@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	  <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+		<title> Sistema de Planillas :: Procesos - Período 'Eliminar'</title>
+		
+		<link  href="../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link  href="../resources/procesos.css" rel="stylesheet" type="text/css" media="screen"/>
+			<script src="../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../resources/principal.js" type="text/javascript" ></script>
+    </head>
+    	
+    <body>
+		
+		<div id="header">
+			
+		</div>
+		
+			<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a  href="../principal/principal.html"> Home</a></li>
+					<li><a href="../database/1.-personal/InicioPersonal.html">Database</a></li>
+					<li><a href="periodos.html"> Procesos</a></li>
+					<li><a href="../reportes/boletas.html"> Reportes</a></li>
+					<li><a href="../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../index.html">Cerrar Sesión</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="periodos.html"> Periodos</a></li>
+					<li><a href="adelantos.html"> Adelantos</a></li>
+					<li><a href="asistencia.html"> Asistencia</a></li>
+					<li><a href="valores.html"> Valores Puntuales</a></li>
+					<li><a href="calculo.html"> Calculo Planilla</a></li>
+					<li><a href="cierre.html"> Cierre Periodo</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div  id="procesoForm">
+				<table width="495px" align="left">
+					<tr>
+					<td><h1>Períodos de Pago </h1></td>
+					</tr>
+				</table>
+			</div>
+			
+				<table id="tableMain" width="600px" align="center">
+					<tr>
+						<td class="nombre">Mes</td>
+						<td class="nombre">Año</td>
+						<td class="nombre">Fecha de Inicio</td>
+						<td class="nombre">Fecha Final</td>
+						<td class="nombre">¿Cerrado?</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>2009</td>
+						<td>01/11/2008</td>
+						<td>30/11/2009</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>2009</td>
+						<td>01/12/2008</td>
+						<td>31/12/2009</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2010</td>
+						<td>01/01/2010</td>
+						<td>31/01/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>2010</td>
+						<td>01/02/2010</td>
+						<td>28/02/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>2010</td>
+						<td>01/03/2010</td>
+						<td>31/03/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>2010</td>
+						<td>01/04/2010</td>
+						<td>30/04/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>2010</td>
+						<td>01/05/2010</td>
+						<td>31/05/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>2010</td>
+						<td>01/06/2010</td>
+						<td>30/06/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>2010</td>
+						<td>01/07/2010</td>
+						<td>31/07/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>2010</td>
+						<td>01/08/2010</td>
+						<td>31/08/2010</td>
+						<td>Sí</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>2010</td>
+						<td>01/09/2010</td>
+						<td>30/09/2010</td>
+						<td>Sí</td>
+					</tr>
+				</table>
+				<br>
+				<table width="495px" align="center">
+					<tr>
+						<td align="left"><input  type="button" value="Ingresar nuevo periodo de pago" onclick="location='ingresarPeriodo.html'";></td>
+						<td align="right"><input  type="reset" value="Eliminar periodo" onclick="location='eliminarPeriodo.html'";></td>
+					</tr>
+				</table>
+				<table id="tableMain" width="550px" align="center">
+					<tr>
+						<td class="nombre">Fecha de Inicio</td>
+						<td class="nombre">Fecha Final</td>
+					</tr>
+					<tr>
+						<td><input type="text" value="Escriba Fecha"></td>
+						<td><input type="text" value="Escriba Fecha"></td>
+					</tr>
+				</table>
+				<br>
+				<table width="495px" align="center">
+					<tr>
+						<td align="left"><input id="eliminarPButton" type="button" value="Eliminar";></td>
+					</tr>
+				</table>
+		</div>
+		
+		<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+    </body>
+ 
+</html>

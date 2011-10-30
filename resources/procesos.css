@@ -1,0 +1,76 @@
+#procesoForm{
+	width: 783px;
+	border:0px solid;
+	position:relative;
+	top: 1%;
+	left: 3%;
+	font-size:14px;
+}
+#noscrollTabla1{
+	position:absolute;
+	height:auto;
+	width:200px;
+	top:40%;
+	left:15%;
+}
+#noscrollTabla2{
+	position:absolute;
+	height:auto;
+	width:300px;
+	top:40%;
+	left:50%;
+}
+#tableMain{
+	font-family:Arial;
+	border:2px solid gray;
+	font-size:12px;
+	color:black;
+	background-color:#E0FFFF;
+}
+#tableMain td{
+	border: navy solid thin;
+}
+#tableMain td.main{
+	border:0px solid;
+	color:#244683;
+	background-color:white;
+}
+#tableMain td.nombre{
+	border:0px solid;
+	color:white;
+	background-color:#244683;
+}
+#tableMain td.last{
+	font-size:16pxs;
+}
+#formTabla{
+	position:absolute;
+	width:495px;
+}
+#formTabla td.campo{
+	width:150px;
+	height:25px;
+}
+#componente{
+	border:1px solid #005486;
+	position:fixed;
+	height:auto;
+	width:400px;
+	top:60%;
+	left:40%;
+}		
+			
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			

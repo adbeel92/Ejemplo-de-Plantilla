@@ -1,0 +1,172 @@
+body { font-family:verdana, arial, sans-serif;
+		color: black;
+		background:  url(fondo-pantalla.jpg) top repeat ;
+		background-color:#003860;
+}
+
+h1 {
+	font-size:28px !important;
+	left:20px  !important;
+	font-family:verdana, arial, sans-serif !important;
+	float:left;
+	color:#244683;
+}
+
+h2 {
+	font-size: 100%;
+}
+
+a  {
+	text-decoration:none;
+}
+
+b{
+	font-family:verdana, arial, sans-serif;
+	font-size:120%;
+	}
+
+p {
+	font-size: 80%;
+	margin:0;
+	padding:0;
+}
+
+li {
+	font-size: 80%;
+}
+
+/*	
+.logo{
+	position: absolute;
+	width: 321px;
+	height: 110px;
+	}
+*/
+#menu{
+	position:relative;
+	width:690px;
+	height: 30px;
+	margin: 0.4% auto;
+	float: right;
+	border: #244683;
+}
+
+#lista{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+#lista li{
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid #13336f;
+	float: left;
+}
+
+#lista li a{
+	display: block;
+	width:100px;
+	padding: 4px 0px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 11px;
+	color: #FFFFFF;
+	background:#13336f;
+	
+}
+
+#lista li a:hover{
+	color:#244683;
+	background: white;
+}
+
+#menu2{
+	position:relative;
+	width:111px;
+	height: 128px;
+	margin: 4% auto;
+	border: #244683;
+	list-style-type: square;
+}
+
+#lista2{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+#lista2 li{
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid #7094B7;
+	float: left;
+}
+
+#lista2 li a{
+	display: block;
+	width:100px;
+	padding: 4px 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 11px;
+	color: #FFFFFF;
+	background:  #7094B7;
+	
+}
+
+#lista2 li a:hover{
+	color:#244683;
+	background: white;
+	cursor:pointer;
+}
+
+#header{
+	position: absolute;
+	width: 1081px;
+	height: 110px;
+	top:8px;
+	left: 168px;
+	background: url(fondo-header.png) top right no-repeat ;
+}
+
+#menubar{
+	position: absolute;
+	width: 1081px;
+	height: 40px;
+	top: 118px;
+	left: 168px;
+	background-color:#d6d8e3;
+	font-size:15px;
+}
+#main{
+	position: absolute;
+	width: 931px;
+	height: 500px;
+	top: 158px;
+	left: 318px;
+	overflow: auto;
+	background-color: white;
+	color:black;
+}
+#sidebar{
+	position: absolute;
+	width: 150px;
+	height: 500px;
+	top: 158px;
+	left: 168px;
+	overflow: auto;
+	background-color:#005486;
+}
+
+#footer{
+	position: absolute;
+	width: 1051px;
+	height: 30px;
+	top: 658px;
+	left: 168px;
+	padding-top:10px;
+	padding-left:30px;
+	background-color: #13336f;
+	color:white;
+}

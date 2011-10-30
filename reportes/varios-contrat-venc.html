@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+    <head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		    <meta name="title" content="Sistema de Planillas USIL">
+    <meta name="author" content="Avatar Corp.">
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="planillas, usil, Planillas,sistema planillas usil,Sistema Planillas Usil,usil planillas,Usil Planillas">
+    <meta name="description" content="sistema manejador de planillas de la usil. solo personal autorizado">
+
+		<title> Sistema de Planillas :: Reportes - Varios: Contratos Vencidos</title>
+		
+		<link  href="../resources/secundario_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link  href="../resources/reportes.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="../resources/jquery.js" type="text/javascript" ></script>
+		<script src="../resources/principal.js" type="text/javascript" ></script>
+
+    </head>
+
+    <body>
+		
+		<div id="header">
+		</div>
+		
+		<div id="menubar">
+			<div id="menu">
+				<ul id="lista">
+					<li><a href="../principal/principal.html"> Home</a></li>
+					<li><a href="../database/1.-personal/InicioPersonal.html">Database</a></li>
+					<li><a href="../procesos/periodos.html"> Procesos</a></li>
+					<li><a href="boletas.html"> Reportes</a></li>
+					<li><a href="../utilitarios/consistenciar.html"> Utilitarios</a></li>
+					<li><a href="../index.html"> Cerrar Sesión</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="sidebar">
+			<div id="menu2">
+				<ul id="lista2">
+					<li><a href="boletas.html"> Boletas</a></li>
+					<li><a href="planillas.html"> Planillas</a></li>
+					<li><a href="afpnet.html"> AFPNET</a></li>
+					<li><a href="cts.html"> CTS</a></li>
+					<li><a href="varios.html"> Varios</a></li>
+					<li><a href="dias.html"> Días Libres / Vacaciones</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div id="main">
+			<div  id="reportesForm">
+			<table id="formTabla">
+				<tr>
+					<td align="left" colspan="6"><h1>Varios: Contato Vencido </h1></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="Contratos Vencidos" onclick="location='varios-contrat-venc.html'"></td>
+					<td>
+						<div id="meses" align="left">
+							<select name="mes">
+								<option selected value="0">-- Mes --</option>
+								<option value="m1"> Enero </option>
+								<option value="m2"> Febrero </option>
+								<option value="m3"> Marzo </option>
+								<option value="m4"> Abril </option>
+								<option value="m5"> Mayo </option>
+								<option value="m6"> Junio </option>
+								<option value="m7"> Julio </option>
+								<option value="m8"> Agosto </option>
+								<option value="m9"> Septiembre </option>
+								<option value="m10"> Octubre </option>
+								<option value="m11"> Noviembre </option>
+								<option value="m12"> Diciembre </option>
+							</select>
+						</div>
+					</td>
+					<td>
+						<div id="años" align="left">
+							<select name="año">
+								<option selected value="0">-- Año --</option>
+								<option value="a1"> 2011 </option>
+								<option value="a2"> 2010 </option>
+								<option value="a3"> 2009 </option>
+								<option value="a4"> 2008 </option>
+								<option value="a5"> 2007 </option>
+								<option value="a6"> 2006 </option>
+								<option value="a7"> 2005 </option>
+								<option value="a8"> 2004 </option>
+								<option value="a9"> 2003 </option>
+								<option value="a10"> 2002 </option>
+								<option value="a11"> 2001 </option>
+								<option value="a12"> 2000 </option>
+								<option value="a10"> 1999 </option>
+								<option value="a11"> 1998 </option>
+								<option value="a12"> 1997 </option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="button" value="Personal Vigente" onclick="location='varios-pers-vig.html'"></td>
+				</tr>
+			</table>
+			</div>
+			
+			<table id="detalles">
+				<tr class="main">
+					<td>DNI</td>
+					<td>Apellido Paterno</td>
+					<td>Apellido Materno</td>
+					<td>Nombre</td>
+					<td>Fecha Fin</td>
+					<td>Area</td>
+					<td>Básico</td>
+				</tr>
+				<tr>
+					<td>20081781</td>
+					<td>Antesano</td>
+					<td>Caso</td>
+					<td>Plinio</td>
+					<td>02/01/2011</td>
+					<td>SAC</td>
+					<td>1645</td>
+				</tr>
+				<tr>
+					<td>00974339</td>
+					<td>Escobal</td>
+					<td>Ortega</td>
+					<td>Joel</td>
+					<td>31/01/2011</td>
+					<td>Dept Idio</td>
+					<td>1545</td>
+				</tr>
+				<tr>
+					<td>10175095</td>
+					<td>Espinoza</td>
+					<td>Huanca</td>
+					<td>Felix</td>
+					<td>24/01/2011</td>
+					<td>FIA</td>
+					<td>2645</td>
+				</tr>
+				<tr>
+					<td>30407724</td>
+					<td>Lazo</td>
+					<td>Maro</td>
+					<td>Edgar</td>
+					<td>24/01/2011</td>
+					<td>FIA</td>
+					<td>5945</td>
+				</tr>
+				<tr>
+					<td>80360330</td>
+					<td>Lopez</td>
+					<td>Vara</td>
+					<td>Andres</td>
+					<td>17/01/2011</td>
+					<td>Seguridad</td>
+					<td>1400</td>
+				</tr>
+				<tr>
+					<td>70180895</td>
+					<td>Solorzano</td>
+					<td>De la Cruz</td>
+					<td>David</td>
+					<td>30/01/2011</td>
+					<td>Limpieza</td>
+					<td>840</td>
+				</tr>
+				<tr>
+					<td>40212627</td>
+					<td>Tolentino</td>
+					<td>Jara</td>
+					<td>Oswaldo</td>
+					<td>30/01/2011</td>
+					<td>Seguridad</td>
+					<td>1045</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="footer">
+			<p><b>Universidad&nbsp;San&nbsp;Ignacio&nbsp;de&nbsp;Loyola&nbsp;/&nbsp;Av.&nbsp;La&nbsp;Fontana&nbsp;550&nbsp;y&nbsp;750,&nbsp;La&nbsp;Molina&nbsp;Lima&nbsp;Perú&nbsp;Telefono&nbsp;(511)3171000</b></p>
+		</div>
+		
+    </body>
+
+</html>

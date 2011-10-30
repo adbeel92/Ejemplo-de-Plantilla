@@ -1,0 +1,160 @@
+body {
+	font-family:verdana, arial, sans-serif;
+	color: white;
+	background:url(fondo-pantalla.jpg) top repeat ;
+	background-color:#003860;
+}
+
+h1 {
+	font-size: 120%;
+	margin-bottom:8px;
+	margin-top:8px;
+	color: #005486;
+}
+h2 {
+	font-size: 120%;
+	margin-bottom:8px;
+	margin-top:8px;
+	color:#005486;
+}
+
+a  {
+	text-decoration:none;
+}
+
+b	{
+	font-family:verdana, arial, sans-serif;
+	font-size:120%;
+}
+	
+p  {
+	font-size: 80%;
+	margin:0px;
+	padding:0px;
+	text-align:justify;
+}
+
+li {
+	font-size: 80%;
+}
+
+/*
+.logo{
+	position: absolute;
+	width: 321px;
+	height: 110px;
+	}
+*/
+
+#menu{
+	position:relative;
+	width:690px;
+	height: 30px;
+	margin: 0.4% auto;
+	float: right;
+	border: #244683;
+}
+
+#lista{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+#lista li{
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid #244683;
+	float: left;
+}
+
+#lista li a{
+	display: block;
+	width:100px;
+	padding: 4px 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 11px;
+	color: #FFFFFF;
+	background:  #244683;	
+}
+
+#lista li a:hover{
+	background: #005486;
+}
+
+#container{
+	width:1081px;
+	height:690px;
+	margin-left:160px;
+	margin-right:160px;
+}	
+
+#header{
+	width:1081px;
+	height: 110px;
+	background: url(fondo-header.png) top right no-repeat  ;
+}
+
+#menubar{
+	width:1081px;
+	height: 40px;
+	background-color:#d6d8e3;
+}
+#main{
+	width:1081px;
+	height: 500px;
+	border: 0px solid black;
+	border-left:0px;
+	background:url(login-medio.jpg) top right no-repeat;	
+}
+
+#news{
+	float:left;
+	width: 590px;
+	height: 300px;
+	margin: 50px 30px 0 30px;
+	padding: 15px;
+	color:black;
+	background:#FFF;
+	background:url(fondo-news.png)top center  no-repeat;
+}
+/*
+#news_container{
+	float:left;
+	width:650px;
+	height:100%;
+	border: 0px solid black;
+	border-bottom:0px;
+	border-top:0px;
+}
+*/
+
+#news p{
+	margin:25px 10px 25px 10px;
+	width:570px;
+}
+
+#updates{
+	width: 280px;
+	float:left;
+	margin: 50px 40px 0px 40px;
+	padding:25px 20px 20px 15px;
+	color:black;
+	background:url(fondo-updates.png)top center  no-repeat;
+}
+#updates p{
+	margin:25px 10px 25px 10px;
+	width:260px;
+	
+}
+
+#footer{
+	
+	width:1051px;
+	height: 30px;
+	padding-top:10px;
+	padding-left:30px;
+	background-color: #13336f;
+	color:white;
+}

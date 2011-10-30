@@ -1,0 +1,114 @@
+#reportesForm{
+	width: 783px;
+	border:0px solid;
+	position:relative;
+	top: 1%;
+	left: 3%;
+	font-size:14px;
+}
+#formTabla{
+	width:495px;
+}
+#formTabla td.campo{
+	width:150px;
+	height:25px;
+}
+#scrollTabla{
+	position:absolute;
+	height:260px;
+	width:800px;
+	overflow:scroll;
+	top:45%;
+	left:7%;
+}
+#noscrollTabla{
+	border:1px solid #005486;
+	position:absolute;
+	height:auto;
+	width:800px;
+	top:30%;
+	left:7%;
+}
+#reportesTabla{
+	position:absolute;
+	top:120px;
+	font-size:10px;
+	height:210px;
+	top:0;
+	width:800px;
+	color:black;
+	background-color:white;
+}
+#reportesTabla tr{
+	border:1px solid gray;
+}
+#reportesTabla tr td.usil{
+	background-color:#7094B7;
+	color:white;
+	border:1px solid gray;
+}
+#reportesTabla tr td.nombre{
+	border:0px solid;
+	font-size:16px;
+}
+#reportesTabla td{
+	border-bottom: navy solid thin;
+	border-top: none;
+	border-left: none;
+	border-right: navy solid thin;
+}
+#reportesTabla td.last{
+	border:0px solid;
+	font-size:12px;
+}
+#reportesTabla td.subtitle{
+	border:0px solid;
+}
+#reportesTabla td.left{
+	border:0px solid;
+}
+#empBoleta{
+	width:675px;
+}
+#detalles{
+	position:relative;
+	width:770px;
+	top:2%;
+	left:2%;
+	border:2px solid gray;
+	font-size:10px;
+	color:black;
+	background-color:#E0FFFF;
+}
+#detalles tr{
+	border:1px solid gray;
+}
+#detalles tr.main{
+	border:1px solid black;
+	color:white;
+	background-color:#244683;
+}
+#detalles td{
+	border:1px solid gray;
+}
+#trabajadores{
+	border:0px solid;
+}
+#meses{
+	border:0px solid;
+}
+#años{
+	border:0px solid;
+}
+.trabajadorPic{
+	width:80px;
+	height:110px;
+}
+#componente{
+	border:1px solid #005486;
+	position:fixed;
+	height:auto;
+	width:400px;
+	top:60%;
+	left:40%;
+}

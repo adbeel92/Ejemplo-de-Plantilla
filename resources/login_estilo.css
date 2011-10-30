@@ -1,0 +1,107 @@
+body {
+	font-family:verdana, arial, sans-serif;
+	color: white;
+	background:url(fondo-pantalla.jpg) top repeat ;
+	background-color:#003860;
+}
+
+h1 {
+	font-size: 120%;
+	
+}
+
+h2 {
+	font-size: 100%;
+}
+
+a  {
+	text-decoration:none;
+	color: white;
+	}
+	
+a:hover{
+	color:yellow;
+}
+
+b{
+	font-family:verdana, arial, sans-serif;
+	font-size:120%;
+	color:white;
+}
+
+p  {
+	font-size: 80%;
+	margin:0;
+	padding:0;
+}
+
+/*
+.logo{
+	position: absolute;
+	width: 321px;
+	height: 110px;
+	}*/
+	
+#table{
+	position:relative;
+	top: 16%;
+	left: 2%;
+}
+	
+#button{
+	margin-top:15px;
+	padding:4px 10px 4px 10px;
+	font-size:14px;
+}
+ 
+div{
+	display:block;
+}
+#container{
+	width:1081px;
+	height: 690px;
+	margin-left:160px;
+	margin-right:160px;
+}	
+
+
+#header{
+	
+	width:1081px;
+	height: 110px;
+	background: url(fondo-header.png) top right no-repeat ;
+}
+
+
+#main{
+	
+	width:1081px;
+	height: 540px;
+	background:  url(login-medio.jpg) top right no-repeat ;
+}
+
+#main2{
+	position:relative;
+	width: 340px;
+	height: 300px;
+	top:120px;
+	margin-left:200px;
+	background: url(fondo-medio.png) top right no-repeat;
+}
+#contrasena{
+	position:relative;
+	width: 340px;
+	height: 200px;
+	top:20px;
+	margin-left:240px;
+}
+
+#footer{
+	
+	width: 1050px;
+	height: 30px;
+	padding-top:10px;
+	padding-left:30px;
+	background-color: #13336f;
+	color:white;
+}

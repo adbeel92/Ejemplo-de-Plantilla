@@ -1,0 +1,31 @@
+#message{
+	width: 901px;
+	position:absolute;
+	left:20px;
+	top: 50px;
+	font-size: 15px;
+
+}
+#comID{
+	position:absolute;
+	left:250px;
+	top: 100px;
+}
+
+#cosID{
+	position:absolute;
+	left:250px;
+	top: 100px;
+}
+
+#h1comp{
+	position:absolute;
+	left: 20px;
+}
+#result{
+	position:absolute;
+	left:20px;
+	top:150px;
+	font-size: 15px;
+
+}
